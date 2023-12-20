@@ -16,13 +16,47 @@
                 <h1> Cédric Wermeille </h1>
                 <ul>
                         <li><a href="#">Home</a></li>
-                        <li><a href="#">Wer bin ich</a></li>
+                        <li><a href="#">Über mich</a></li>
                         <li><a href="#">Kreationen</a></li>
                         <li><a href="#">Kontakt</a></li>
                 </ul>
         </nav>
 </div>
-
+<section id="profile">
+        <div class="section__pic-container">
+          <img src="Medien/Portraetbild_CW.jpg" alt="Cédric Wermeille profile picture" />
+        </div>
+        <div class="section__text">
+          <p class="section__text__p1">Grüezi, Ich bin</p>
+          <h1 class="title">Cédric Wermeille</h1>
+          <p class="section__text__p2">und suche eine IT-Lehrstelle</p>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/resume-example.pdf')"
+            >
+              Mein Lebenslauf
+            </button>
+            <button class="btn btn-color-1" onclick="location.href='./#contact'">
+              Kontaktieren Sie mich
+            </button>
+          </div>
+          <div id="socials-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="My LinkedIn profile"
+              class="icon"
+              onclick="location.href='https://www.linkedin.com/in/c%C3%A9dric-wermeille-628086244/'"
+            />
+            <img
+              src="./assets/github.png"
+              alt="My Github profile"
+              class="icon"
+              onclick="location.href='https://github.com/'"
+            />
+          </div>
+        </div>
+      </section>
 
 </body>
 </html>
